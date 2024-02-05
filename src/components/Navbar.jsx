@@ -1,6 +1,6 @@
 import './navbar.css'
 import React from 'react'
-import {Menuitems} from "./Menuitems"
+import {Menuitems} from './Menuitems'
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
