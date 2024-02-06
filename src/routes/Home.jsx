@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from "../components/Navbar"
 import Background from '../components/Background'
+import bannerimg from '../assets/images/banner.jpg'
 
 const Home = () => {
   return (
@@ -8,7 +9,7 @@ const Home = () => {
   <Navbar/>
   <Background
   cName="banner"
-  bannerimg=""
+  bannerimg="bannerimg"
   title="Always say yes to new adventures."
   btntext="Travel Plan"
   url="/"
