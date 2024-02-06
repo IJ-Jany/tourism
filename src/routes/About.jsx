@@ -2,18 +2,18 @@ import React from 'react'
 import Navbar from "../components/Navbar"
 import Background from '../components/Background'
 
-const Service = () => {
+const About = () => {
   return (
     <>
-     <Navbar/>
+    <Navbar/>
     <Background
     cName="about"
     bannerimg=""
-    title="service"
+    title="about"
     btnclass="hide"
     />
     </>
   )
 }
 
-export default Service
+export default About

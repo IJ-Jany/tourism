@@ -1,8 +1,20 @@
 import React from 'react'
+import Navbar from "../components/Navbar"
+import Background from '../components/Background'
 
 const Home = () => {
   return (
-   <h1>This is home</h1>
+  <>
+  <Navbar/>
+  <Background
+  cName="banner"
+  bannerimg=""
+  title="Always say yes to new adventures."
+  btntext="Travel Plan"
+  url="/"
+  btnclass="show"
+  />
+  </>
   )
 }
 

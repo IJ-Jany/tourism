@@ -1,8 +1,18 @@
 import React from 'react'
+import Navbar from "../components/Navbar"
+import Background from '../components/Background'
 
 const Contact = () => {
   return (
-    <h1>This is contact</h1>
+    <>
+    <Navbar/>
+   <Background
+   cName="about"
+   bannerimg=""
+   title="contact"
+   btnclass="hide"
+   />
+   </>
   )
 }
 
